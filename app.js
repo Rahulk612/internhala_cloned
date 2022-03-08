@@ -40,9 +40,9 @@ app.use(
 
 app.get("/", function (req, res) {
   res.render("index");
-  app.use("/",userController)
 });
 
+app.use("/",userController)
 
 app.use("/resume", resume);
 
